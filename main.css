@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    margin: 50px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postbyperson {
+    font-family: fantasy;
+    padding: 5px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery-item {
+    width: 200px;
+}
