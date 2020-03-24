@@ -12,6 +12,7 @@ li {
     height: 200px;
     border: 1px solid green;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -25,9 +26,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .gallery-item {
     width: 200px;
+}
+
+ul {
+    display:flex;
+    flex-wrap: wrap;
 }
